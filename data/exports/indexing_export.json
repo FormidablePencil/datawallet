@@ -1,0 +1,151 @@
+{
+  "entries": {
+    "000200": {
+      "index": "000200",
+      "person": "ddd",
+      "action": "ddsdf",
+      "object": "dfff"
+    },
+    "002900": {
+      "index": "002900",
+      "person": "dANIEL",
+      "action": "eATS",
+      "object": "fOOD"
+    }
+  },
+  "routing": {
+    "75-inv": "A",
+    "00-inv": "-y",
+    "50:branch": "74",
+    "25:branch": "49",
+    "75:branch": "98",
+    "50-inv": "-Y",
+    "88:branch": "23",
+    "00:branch": "24",
+    "25-inv": "-a",
+    "22:branch": "21"
+  },
+  "history": [
+    {
+      "timestamp": "2026-05-07T06:41:15.169432695+00:00",
+      "index": "000500",
+      "entry_type": "note",
+      "content": "Smth",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-07T06:41:56.276914494+00:00",
+      "index": "000500",
+      "entry_type": "note",
+      "content": "kk",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-07T06:43:06.332537743+00:00",
+      "index": "000600",
+      "entry_type": "note",
+      "content": "K",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-15T03:17:30.480629426+00:00",
+      "index": "008700",
+      "entry_type": "note",
+      "content": "QWERTY",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-15T03:20:40.864279608+00:00",
+      "index": "008100",
+      "entry_type": "note",
+      "content": "zaq",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-15T03:21:27.975165476+00:00",
+      "index": "008200",
+      "entry_type": "note",
+      "content": "1233",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-15T03:22:46.926380021+00:00",
+      "index": "008300",
+      "entry_type": "note",
+      "content": "qwertyuio",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-15T03:25:48.572319454+00:00",
+      "index": "008500",
+      "entry_type": "note",
+      "content": "qwez",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-15T03:29:04.082391118+00:00",
+      "index": "002800",
+      "entry_type": "note",
+      "content": "XCXC",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-15T03:32:09.446361327+00:00",
+      "index": "002900",
+      "entry_type": "note",
+      "content": "222@xxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-15T03:38:13.985035783+00:00",
+      "index": "002900",
+      "entry_type": "note",
+      "content": "124312",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-15T03:59:37.855305529+00:00",
+      "index": "23543",
+      "entry_type": "note",
+      "content": "Yo food!",
+      "context": null
+    },
+    {
+      "timestamp": "2026-05-15T21:28:35.810166984+00:00",
+      "index": "000200",
+      "entry_type": "note",
+      "content": "dfdfdffff",
+      "context": null
+    }
+  ],
+  "reservations": [
+    "001100"
+  ],
+  "registries": {
+    "25": {
+      "prefix": "25",
+      "description": "Set 3: inverted lowercase (-y→-a)",
+      "quadrant": 3,
+      "created": "2026-05-07T06:31:03.354322896+00:00"
+    },
+    "75": {
+      "prefix": "75",
+      "description": "Set 2: reverse uppercase (Y→A)",
+      "quadrant": 2,
+      "created": "2026-05-07T06:31:03.354331406+00:00"
+    },
+    "00": {
+      "prefix": "00",
+      "description": "Set 1: forward lowercase (a→y)",
+      "quadrant": 1,
+      "created": "2026-05-07T06:31:03.354289775+00:00"
+    },
+    "50": {
+      "prefix": "50",
+      "description": "Set 4: inverted uppercase (-A→-Y)",
+      "quadrant": 4,
+      "created": "2026-05-07T06:31:03.354326499+00:00"
+    }
+  },
+  "inverted": {}
+}

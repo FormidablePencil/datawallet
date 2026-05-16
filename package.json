@@ -1,0 +1,15 @@
+{
+  "name": "datawallet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "(dynamic) DataWallet - A dynamic data registry and mnemonic PAO indexing system",
+  "scripts": {
+    "tailwind": "npx @tailwindcss/cli -i ./input.css -o ./assets/tailwind.css --watch",
+    "tailwind:build": "npx @tailwindcss/cli -i ./input.css -o ./assets/tailwind.css"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

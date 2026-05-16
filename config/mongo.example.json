@@ -1,0 +1,6 @@
+{
+  "uri": "mongodb://username:password@localhost:27017",
+  "database": "datawallet",
+  "collection": "pao_systems",
+  "connect_timeout_secs": 5
+}

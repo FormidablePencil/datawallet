@@ -1,0 +1,608 @@
+{
+  "name": "Default PAO System",
+  "description": "Primary PAO system for numbers 00-99 using pop culture references",
+  "version": "1.0",
+  "createdAt": "2026-04-09T00:00:00.000Z",
+  "entries": [
+    {
+      "number": "00",
+      "person": "Girl from Cyberpunk 2077",
+      "action": "decodes/encodes",
+      "object": "mnemonic bank"
+    },
+    {
+      "number": "01",
+      "person": "Buz/Woody from Toy Story",
+      "action": "uses their laser(buz) and rope(woody) to secure and accommodate",
+      "object": "Toy Story toys"
+    },
+    {
+      "number": "02",
+      "person": "Starlord",
+      "action": "forces",
+      "object": "lightsaber"
+    },
+    {
+      "number": "03",
+      "person": "Lilya",
+      "action": "prompts",
+      "object": "AI"
+    },
+    {
+      "number": "04",
+      "person": "Denji",
+      "action": "rips through",
+      "object": "chainsaws"
+    },
+    {
+      "number": "05",
+      "person": "Boys",
+      "action": "work with controllers",
+      "object": "Animal Crossing"
+    },
+    {
+      "number": "06",
+      "person": "Kassandra from Assassin's Creed Odyssey",
+      "action": "assassinates",
+      "object": "NPC"
+    },
+    {
+      "number": "07",
+      "person": "Zero Two from darling in the Franxx",
+      "action": "aims with Franxx weapon",
+      "object": "Franxx weapon(s)"
+    },
+    {
+      "number": "08",
+      "person": "Rick Sanchez",
+      "action": "arms/disarms",
+      "object": "bomb"
+    },
+    {
+      "number": "09",
+      "person": "Asuna from SAO",
+      "action": "squats",
+      "object": "(ass) pc muscles"
+    },
+    {
+      "number": "10",
+      "person": "coolade guy",
+      "action": "ran over(piled over)",
+      "object": "motorcycle"
+    },
+    {
+      "number": "11",
+      "person": "alaDDin",
+      "action": "bends",
+      "object": "lamp"
+    },
+    {
+      "number": "12",
+      "person": "Tank eveNs",
+      "action": "polishes",
+      "object": "surfboard"
+    },
+    {
+      "number": "13",
+      "person": "TiMon",
+      "action": "sucks",
+      "object": "finger"
+    },
+    {
+      "number": "14",
+      "person": "T Rex",
+      "action": "claps together",
+      "object": "hands"
+    },
+    {
+      "number": "15",
+      "person": "DigLet",
+      "action": "digs",
+      "object": "treasure map"
+    },
+    {
+      "number": "16",
+      "person": "Joker",
+      "action": "smiles and laughs(devilishly)",
+      "object": "eggs"
+    },
+    {
+      "number": "17",
+      "person": "DonKey",
+      "action": "sniffs",
+      "object": "grass"
+    },
+    {
+      "number": "18",
+      "person": "TeFiti",
+      "action": "throws",
+      "object": "fireballs"
+    },
+    {
+      "number": "19",
+      "person": "DumBo",
+      "action": "burps",
+      "object": "nuts"
+    },
+    {
+      "number": "20",
+      "person": "Jay",
+      "action": "vomits",
+      "object": "minions"
+    },
+    {
+      "number": "21",
+      "person": "aNDy",
+      "action": "backflips",
+      "object": "Van's off the wall"
+    },
+    {
+      "number": "22",
+      "person": "buNNy",
+      "action": "blows (out of mouth)",
+      "object": "trump"
+    },
+    {
+      "number": "23",
+      "person": "NeMo",
+      "action": "daringly tapped",
+      "object": "butt"
+    },
+    {
+      "number": "24",
+      "person": "NaRuto",
+      "action": "meditates",
+      "object": "shuriken"
+    },
+    {
+      "number": "25",
+      "person": "Selina",
+      "action": "uncovers",
+      "object": "iPhone"
+    },
+    {
+      "number": "26",
+      "person": "NinJa",
+      "action": "covers",
+      "object": "camel spit"
+    },
+    {
+      "number": "27",
+      "person": "mr. iNCredible",
+      "action": "lifts",
+      "object": "train"
+    },
+    {
+      "number": "28",
+      "person": "Arnold Schwarzenegger",
+      "action": "poses",
+      "object": "mirror"
+    },
+    {
+      "number": "29",
+      "person": "wiNniPoo",
+      "action": "pours",
+      "object": "honey"
+    },
+    {
+      "number": "30",
+      "person": "preacher lawson",
+      "action": "drops",
+      "object": "mic"
+    },
+    {
+      "number": "31",
+      "person": "MinecrafT steve",
+      "action": "mines",
+      "object": "diamonds"
+    },
+    {
+      "number": "32",
+      "person": "MuaNa",
+      "action": "combs",
+      "object": "hair"
+    },
+    {
+      "number": "33",
+      "person": "M&M",
+      "action": "rapping",
+      "object": "candy"
+    },
+    {
+      "number": "34",
+      "person": "MaRio",
+      "action": "jump hit (box)",
+      "object": "coin box"
+    },
+    {
+      "number": "35",
+      "person": "darth MauL",
+      "action": "force pushes",
+      "object": "metal crater"
+    },
+    {
+      "number": "36",
+      "person": "MaGician (Clash of clans)",
+      "action": "shuffles",
+      "object": "deck of cards"
+    },
+    {
+      "number": "37",
+      "person": "MCqueen",
+      "action": "flashes",
+      "object": "headlights"
+    },
+    {
+      "number": "38",
+      "person": "MuFasa",
+      "action": "shreds in two",
+      "object": "stake (meat)"
+    },
+    {
+      "number": "39",
+      "person": "siMBa",
+      "action": "swallows",
+      "object": "worms"
+    },
+    {
+      "number": "40",
+      "person": "taRZan",
+      "action": "swings",
+      "object": "vines"
+    },
+    {
+      "number": "41",
+      "person": "queen of heaRTs",
+      "action": "chops",
+      "object": "head"
+    },
+    {
+      "number": "42",
+      "person": "gRuNt",
+      "action": "concentrates deeply",
+      "object": "casino chips"
+    },
+    {
+      "number": "43",
+      "person": "tRuMp",
+      "action": "builds",
+      "object": "wall"
+    },
+    {
+      "number": "44",
+      "person": "haRRy",
+      "action": "gets hit",
+      "object": "brick"
+    },
+    {
+      "number": "45",
+      "person": "chaRmeLeon",
+      "action": "flamethrows out of mouth",
+      "object": "pokeball"
+    },
+    {
+      "number": "46",
+      "person": "cRuSH",
+      "action": "head bumps",
+      "object": "fish dory"
+    },
+    {
+      "number": "47",
+      "person": "patRiK",
+      "action": "latches",
+      "object": "rock"
+    },
+    {
+      "number": "48",
+      "person": "masteR chieF",
+      "action": "reloads",
+      "object": "pistol"
+    },
+    {
+      "number": "49",
+      "person": "Mr. Potato head",
+      "action": "rubs/ feels/ stroke",
+      "object": "mustache"
+    },
+    {
+      "number": "50",
+      "person": "LiZ",
+      "action": "jiggles/shakes",
+      "object": "bs"
+    },
+    {
+      "number": "51",
+      "person": "boLT",
+      "action": "barks/cusses",
+      "object": "watermelons"
+    },
+    {
+      "number": "52",
+      "person": "LiNk",
+      "action": "draws",
+      "object": "sword"
+    },
+    {
+      "number": "53",
+      "person": "baLMond",
+      "action": "slams (stars over his head)",
+      "object": "turret (mobile legends)"
+    },
+    {
+      "number": "54",
+      "person": "LaRry the cucumber",
+      "action": "Squashes/flattens",
+      "object": "tomato"
+    },
+    {
+      "number": "55",
+      "person": "waLLi",
+      "action": "charges",
+      "object": "battery"
+    },
+    {
+      "number": "56",
+      "person": "michaeL Jackson",
+      "action": "moonwalks",
+      "object": "white gloves"
+    },
+    {
+      "number": "57",
+      "person": "sLinky dog",
+      "action": "climbs",
+      "object": "bed"
+    },
+    {
+      "number": "58",
+      "person": "aLVin",
+      "action": "workout",
+      "object": "piano"
+    },
+    {
+      "number": "59",
+      "person": "Simon Lelex",
+      "action": "rescues/saves",
+      "object": "hat"
+    },
+    {
+      "number": "60",
+      "person": "JeSse",
+      "action": "jumps over",
+      "object": "coach"
+    },
+    {
+      "number": "61",
+      "person": "CHuBaka",
+      "action": "gorilla chest beating",
+      "object": "shopping carts"
+    },
+    {
+      "number": "62",
+      "person": "GeNie",
+      "action": "shapeshifts (evolving)",
+      "object": "mansion"
+    },
+    {
+      "number": "63",
+      "person": "conan o'brien",
+      "action": "dances",
+      "object": "torch"
+    },
+    {
+      "number": "64",
+      "person": "JeRry",
+      "action": "tiptoes",
+      "object": "fur"
+    },
+    {
+      "number": "65",
+      "person": "army dude",
+      "action": "tackles",
+      "object": "tree"
+    },
+    {
+      "number": "66",
+      "person": "CHicken Joe",
+      "action": "surfs",
+      "object": "waves"
+    },
+    {
+      "number": "67",
+      "person": "SHreK",
+      "action": "counts",
+      "object": "sticks"
+    },
+    {
+      "number": "68",
+      "person": "SHeriFf woody",
+      "action": "kicks",
+      "object": "toy soldiers"
+    },
+    {
+      "number": "69",
+      "person": "sponGeBob",
+      "action": "soaks",
+      "object": "sponge"
+    },
+    {
+      "number": "70",
+      "person": "russell brand",
+      "action": "flips off",
+      "object": "tv"
+    },
+    {
+      "number": "71",
+      "person": "meGa minD",
+      "action": "urinates",
+      "object": "raygun"
+    },
+    {
+      "number": "72",
+      "person": "hulk",
+      "action": "penitrates into body",
+      "object": "steroids (needles)"
+    },
+    {
+      "number": "73",
+      "person": "KerMit",
+      "action": "tongues",
+      "object": "flies"
+    },
+    {
+      "number": "74",
+      "person": "tiGeR",
+      "action": "bounces",
+      "object": "rubber ball"
+    },
+    {
+      "number": "75",
+      "person": "GoLem",
+      "action": "watering",
+      "object": "flowers"
+    },
+    {
+      "number": "76",
+      "person": "yoda",
+      "action": "pokes",
+      "object": "r2d2 (thing)"
+    },
+    {
+      "number": "77",
+      "person": "KaKashi",
+      "action": "reads",
+      "object": "romantic novel"
+    },
+    {
+      "number": "78",
+      "person": "GooFy",
+      "action": "waves",
+      "object": "flag"
+    },
+    {
+      "number": "79",
+      "person": "GoBlin",
+      "action": "steals, (loots)",
+      "object": "elixir(steroid juice)"
+    },
+    {
+      "number": "80",
+      "person": "general grieVouS",
+      "action": "combines craftfully together",
+      "object": "armor"
+    },
+    {
+      "number": "81",
+      "person": "garFielD",
+      "action": "sleeps",
+      "object": "Lasagna"
+    },
+    {
+      "number": "82",
+      "person": "keViN",
+      "action": "slides",
+      "object": "legs"
+    },
+    {
+      "number": "83",
+      "person": "VilepluMe",
+      "action": "poisons (purple bubbling)",
+      "object": "carrots"
+    },
+    {
+      "number": "84",
+      "person": "VadeR",
+      "action": "forcepulls",
+      "object": "lightsaber"
+    },
+    {
+      "number": "85",
+      "person": "cruella deViLle",
+      "action": "paints",
+      "object": "dogs"
+    },
+    {
+      "number": "86",
+      "person": "iron man",
+      "action": "shoots out of hands plasma beam",
+      "object": "thor hammer"
+    },
+    {
+      "number": "87",
+      "person": "ViCtreebel",
+      "action": "whips",
+      "object": "lighter"
+    },
+    {
+      "number": "88",
+      "person": "Brandon Birshard",
+      "action": "writes",
+      "object": "journal"
+    },
+    {
+      "number": "89",
+      "person": "venom",
+      "action": "shaves/mows",
+      "object": "weed (marijuana)"
+    },
+    {
+      "number": "90",
+      "person": "BruCe",
+      "action": "cries out",
+      "object": "bombs"
+    },
+    {
+      "number": "91",
+      "person": "PanDa",
+      "action": "cannonballs himself",
+      "object": "mud puddle"
+    },
+    {
+      "number": "92",
+      "person": "lego BatmaN",
+      "action": "glides (down)",
+      "object": "batmobile"
+    },
+    {
+      "number": "93",
+      "person": "sPiderMan",
+      "action": "smokes",
+      "object": "cigar"
+    },
+    {
+      "number": "94",
+      "person": "suPeRman",
+      "action": "flys (up)",
+      "object": "moon"
+    },
+    {
+      "number": "95",
+      "person": "Buz Lightyear",
+      "action": "shoots lazers out of his eyes",
+      "object": "ant"
+    },
+    {
+      "number": "96",
+      "person": "PikaCHu",
+      "action": "lightning bolts",
+      "object": "water bottle"
+    },
+    {
+      "number": "97",
+      "person": "PinoKhio",
+      "action": "grows",
+      "object": "nose"
+    },
+    {
+      "number": "98",
+      "person": "BobaFatt",
+      "action": "sneezes",
+      "object": "helmet"
+    },
+    {
+      "number": "99",
+      "person": "PoPeye",
+      "action": "prise open a can",
+      "object": "spinach"
+    }
+  ]
+}
