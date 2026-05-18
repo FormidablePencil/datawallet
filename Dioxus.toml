@@ -1,0 +1,23 @@
+[application]
+name = "datawallet"
+default_platform = "fullstack"
+
+# For pure web mode, use: dx serve --platform web --features web
+# Note: Pure web mode uses browser localStorage instead of file system
+
+[web.app]
+title = "(dynamic) DataWallet"
+
+[web.watcher]
+watch_path = ["src", "public"]
+
+[web.resource]
+style = []
+script = []
+
+[web.resource.dev]
+style = []
+script = []
+
+#[server]
+#cargo = true

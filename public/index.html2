@@ -150,6 +150,8 @@
             window.showDXToast = showDXToast;
             window.closeDXToast = closeDXToast;
         </script>
+        <link rel="preload" href="/wasm/datawallet_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+        <link rel="modulepreload" href="/wasm/datawallet.js">
     </head>
     <body>
         <div id="__dx-toast" class="dx-toast" aria-hidden="true">

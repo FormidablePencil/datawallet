@@ -146,10 +146,10 @@ pub fn DataWalletApp(
                         }
                         button {
                             class: "text-xs text-red-400 hover:text-red-300 transition-colors",
-                            onclick: {
-                                let ei = e_idx.clone();
-                                move |_| { indexing_system.write().remove(&ei); let _ = indexing_system.read().save(); status_msg.set(format!("🗑️ Removed: {}", ei)); }
-                            },
+                                onclick: {
+                                    let ei = e_idx.clone();
+                                    move |_| { indexing_system.write().remove(&ei); status_msg.set(format!("🗑️ Removed: {}", ei)); }
+                                },
                             "✕"
                         }
                     }
@@ -268,7 +268,6 @@ pub fn DataWalletApp(
                                                 match IndexingSystem::import_from_json(&contents) {
                                                     Ok(imported) => {
                                                         *indexing_system.write() = imported;
-                                                        let _ = indexing_system.read().save();
                                                         status_msg.set(format!("✅ Imported from {path}"));
                                                     }
                                                     Err(e) => status_msg.set(format!("❌ Import failed: {e}")),
@@ -425,8 +424,7 @@ pub fn DataWalletApp(
                                     if !c.is_empty() { status_msg.set(format!("Cannot save: {}", c[0])); return; }
                                     indexing_system.write().insert(&idx, &person, &action, &object);
                                     if !note_input().is_empty() { indexing_system.write().capture_history(&idx, "note", &note_input(), None); }
-                                    if let Err(e) = indexing_system.read().save() { status_msg.set(format!("Save error: {e}")); }
-                                    else { status_msg.set(format!("✅ Saved: {idx} – {person}")); }
+                                    status_msg.set(format!("✅ Saved: {idx} – {person}"));
                                     person_input.set(String::new()); action_input.set(String::new());
                                     object_input.set(String::new()); note_input.set(String::new());
                                 },
@@ -594,7 +592,6 @@ pub fn DataWalletApp(
                                     let from = route_from(); let to = route_to();
                                     if !from.is_empty() && !to.is_empty() {
                                         indexing_system.write().add_route(&format!("{}:branch", from), &to);
-                                        let _ = indexing_system.read().save();
                                         status_msg.set(format!("✅ Branch: {from} → {to}"));
                                         route_from.set(String::new()); route_to.set(String::new());
                                     }

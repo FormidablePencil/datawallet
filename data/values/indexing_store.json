@@ -1,29 +1,35 @@
 {
   "entries": {
+    "020000": {
+      "index": "020000",
+      "person": "sdf",
+      "action": "sdfgbh",
+      "object": "fd"
+    },
+    "000011": {
+      "index": "000011",
+      "person": "Person",
+      "action": "Action",
+      "object": "Object"
+    },
     "000200": {
       "index": "000200",
       "person": "ddd",
       "action": "ddsdf",
       "object": "dfff"
-    },
-    "002900": {
-      "index": "002900",
-      "person": "dANIEL",
-      "action": "eATS",
-      "object": "fOOD"
     }
   },
   "routing": {
-    "75-inv": "A",
+    "88:branch": "23",
+    "50-inv": "-Y",
+    "75:branch": "98",
+    "25:branch": "49",
+    "00:branch": "24",
+    "22:branch": "21",
     "00-inv": "-y",
     "50:branch": "74",
-    "25:branch": "49",
-    "75:branch": "98",
-    "50-inv": "-Y",
-    "88:branch": "23",
-    "00:branch": "24",
-    "25-inv": "-a",
-    "22:branch": "21"
+    "75-inv": "A",
+    "25-inv": "-a"
   },
   "history": [
     {
@@ -116,24 +122,25 @@
       "entry_type": "note",
       "content": "dfdfdffff",
       "context": null
+    },
+    {
+      "timestamp": "2026-05-18T22:41:55.884+00:00",
+      "index": "000011",
+      "entry_type": "note",
+      "content": "Note...",
+      "context": null
     }
   ],
   "reservations": [
-    "000000",
-    "001100"
+    "001100",
+    "000000"
   ],
   "registries": {
-    "25": {
-      "prefix": "25",
-      "description": "Set 3: inverted lowercase (-y→-a)",
-      "quadrant": 3,
-      "created": "2026-05-07T06:31:03.354322896+00:00"
-    },
-    "75": {
-      "prefix": "75",
-      "description": "Set 2: reverse uppercase (Y→A)",
-      "quadrant": 2,
-      "created": "2026-05-07T06:31:03.354331406+00:00"
+    "50": {
+      "prefix": "50",
+      "description": "Set 4: inverted uppercase (-A→-Y)",
+      "quadrant": 4,
+      "created": "2026-05-07T06:31:03.354326499+00:00"
     },
     "00": {
       "prefix": "00",
@@ -141,11 +148,17 @@
       "quadrant": 1,
       "created": "2026-05-07T06:31:03.354289775+00:00"
     },
-    "50": {
-      "prefix": "50",
-      "description": "Set 4: inverted uppercase (-A→-Y)",
-      "quadrant": 4,
-      "created": "2026-05-07T06:31:03.354326499+00:00"
+    "75": {
+      "prefix": "75",
+      "description": "Set 2: reverse uppercase (Y→A)",
+      "quadrant": 2,
+      "created": "2026-05-07T06:31:03.354331406+00:00"
+    },
+    "25": {
+      "prefix": "25",
+      "description": "Set 3: inverted lowercase (-y→-a)",
+      "quadrant": 3,
+      "created": "2026-05-07T06:31:03.354322896+00:00"
     }
   },
   "inverted": {}

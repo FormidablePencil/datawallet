@@ -91,7 +91,7 @@ impl std::error::Error for MongoError {}
 // ── Server-Side Configuration Loading ─────────────────────────
 
 #[cfg(feature = "server")]
-fn load_mongo_config() -> MongoConfig {
+pub fn load_mongo_config() -> MongoConfig {
     let config_path = "config/mongo.json";
     match std::fs::read_to_string(config_path) {
         Ok(json) => {
