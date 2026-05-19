@@ -1,6 +1,7 @@
 [application]
 name = "datawallet"
 default_platform = "fullstack"
+out_dir = "public"
 
 # For pure web mode, use: dx serve --platform web --features web
 # Note: Pure web mode uses browser localStorage instead of file system
