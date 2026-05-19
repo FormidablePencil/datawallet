@@ -20,5 +20,5 @@ Thumbs.db
 *.swp
 *.swo
 
-# Generated CSS
-assets/tailwind.css
+# # Generated CSS
+# assets/tailwind.css
