@@ -1,35 +1,16 @@
 {
-  "entries": {
-    "020000": {
-      "index": "020000",
-      "person": "sdf",
-      "action": "sdfgbh",
-      "object": "fd"
-    },
-    "000011": {
-      "index": "000011",
-      "person": "Person",
-      "action": "Action",
-      "object": "Object"
-    },
-    "000200": {
-      "index": "000200",
-      "person": "ddd",
-      "action": "ddsdf",
-      "object": "dfff"
-    }
-  },
+  "entries": {},
   "routing": {
-    "88:branch": "23",
+    "25:branch": "49",
+    "25-inv": "-a",
     "50-inv": "-Y",
     "75:branch": "98",
-    "25:branch": "49",
+    "88:branch": "23",
     "00:branch": "24",
     "22:branch": "21",
-    "00-inv": "-y",
-    "50:branch": "74",
     "75-inv": "A",
-    "25-inv": "-a"
+    "00-inv": "-y",
+    "50:branch": "74"
   },
   "history": [
     {
@@ -129,9 +110,17 @@
       "entry_type": "note",
       "content": "Note...",
       "context": null
+    },
+    {
+      "timestamp": "2026-05-19T05:16:30.143+00:00",
+      "index": "040000",
+      "entry_type": "note",
+      "content": "343",
+      "context": null
     }
   ],
   "reservations": [
+    "001023",
     "001100",
     "000000"
   ],
@@ -142,17 +131,17 @@
       "quadrant": 4,
       "created": "2026-05-07T06:31:03.354326499+00:00"
     },
-    "00": {
-      "prefix": "00",
-      "description": "Set 1: forward lowercase (a→y)",
-      "quadrant": 1,
-      "created": "2026-05-07T06:31:03.354289775+00:00"
-    },
     "75": {
       "prefix": "75",
       "description": "Set 2: reverse uppercase (Y→A)",
       "quadrant": 2,
       "created": "2026-05-07T06:31:03.354331406+00:00"
+    },
+    "00": {
+      "prefix": "00",
+      "description": "Set 1: forward lowercase (a→y)",
+      "quadrant": 1,
+      "created": "2026-05-07T06:31:03.354289775+00:00"
     },
     "25": {
       "prefix": "25",

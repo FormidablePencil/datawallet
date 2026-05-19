@@ -22,13 +22,21 @@
 
 use dioxus::prelude::*;
 use serde::{Deserialize, Serialize};
+use std::fs;
+
+#[derive(Debug, Deserialize)]
+struct JsonData {
+    uri: String,
+    database: String,
+    collection: String,
+}
 
 // ── Public types ──────────────────────────────────────────────
 
 /// Connection configuration for MongoDB.
 #[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct MongoConfig {
-    /// Connection URI, e.g. `mongodb://localhost:27017`.
+    /// Connection URI, e.g. `mongodb://localhost:<port>`.
     pub uri: String,
     /// Database name.
     pub database: String,
@@ -40,10 +48,16 @@ pub struct MongoConfig {
 
 impl Default for MongoConfig {
     fn default() -> Self {
+    // Read the JSON file
+    let json_str = fs::read_to_string("config/mongo.json").unwrap();
+    
+    // Parse into struct
+    let data: JsonData = serde_json::from_str(&json_str).unwrap();
+    
         Self {
-            uri: "mongodb://localhost:27017".into(),
-            database: "datawallet".into(),
-            collection: "pao_systems".into(),
+            uri: data.uri.into(),
+            database: data.database.into(),
+            collection: data.collection.into(),
             connect_timeout_secs: 5,
         }
     }
